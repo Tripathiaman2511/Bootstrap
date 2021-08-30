@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Bootstrap 4 | Reference </title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+<body>
+<!--Alert-->
+<div class="container">
+  <div class="alert alert-success">
+    <strong>Success!</strong>
+    <p>this alert box is success</p>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!--Button-->
+<button type="button" class="btn btn-dark" name="button">Button</button>
+<br>
+<br>
+<br>
+<br>
+<!--Carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img class="d-block w-100 " src="..." alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Third slide">
+      </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!--Collapse-->
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#demo" name="button">Click-ME</button>
+<div id="demo" class="collapse">
+<p>this is some text</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!--dropdown-->
+ <button type="button" class="dropdown-toggle" data-toggle="dropdown" name="button">Dropdown</button>
+ <br>
+ <br>
+ <br>
+ <br>
+ <!--modal-->
+ <button type="button" data-toggle="modal" data-target="#mymodal" name="button">Modal</button>
+ <a data-toggle="modal" href="mymodal">Open Modal</a>
+ <br>
+ <br>
+ <br>
+ <br>
+ <!--popover-->
+ <a href="#" data-toggle="popover" title="Popover Header" data-content="Some text">Toggle Popover</a>
+ <br>
+ <br>
+ <br>
+ <br>
+
+ <!--Scrollspy-->
+ <body data-spy="scroll" data-target=".navbar" data-ffset="50">
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+     <ul class="navbar-nav">
+       <li class="nav-item">
+      <a href="#section1" class="nav-link">Section 1</a></li>
+     </ul>
+   </nav>
+   <div id="section1">
+     <h1>Section 1</h1>
+     <p>Try to scroll this page</p>
+   </div>
+  </body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--Tabs-->
+  <ul class="nav nav-tabs">
+  <li class="nav-item">
+  <a href="#home" class="nav-link active" data-toggle="tab" >Home</a>
+</li>
+<li class="nav-item">
+<a href="#menu1" class="nav-link " data-toggle="tab" >Menu 1</a>
+</li>
+<li class="nav-item">
+<a href="#menu2" class="nav-link " data-toggle="tab" >Menu 2</a>
+</li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active container" id="home">...</div>
+    <div class="tab-pane  container" id="menu1">...</div>
+    <div class="tab-pane  container" id="menu2">...</div>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--Toast-->
+  <!--Toast component is ike alert box whic is only shown for seconds-->
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--Tooltip-->
+  <!--the tool tip is a small pop-up box that apperas when the user move the mouse over an element-->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
